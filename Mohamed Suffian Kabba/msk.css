@@ -1,0 +1,280 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Hoefler Text;
+    background-color: rgb(233, 245, 248);
+
+
+}
+
+header{
+   margin: 3% 10% 3% 10%;
+    padding: 37px 161px;
+     align-items: center; 
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 60%;
+    
+}
+.menu li{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    
+    
+}
+.menu li a{
+    text-decoration: none;
+    color:rgb(7, 9, 10);
+}
+.menu li a:hover{
+    color: rgb(82, 198, 235);
+    border-bottom: 5px solid #030303;
+}
+
+#container{
+    margin: 0 20px 15px 100px;
+    text-align: right;
+    float: right;
+}
+img{
+max-width: 400px;
+padding: 10px 10px 10px 10px;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 400px;
+    margin-bottom: 70px;
+    padding: 0px 0px 0px 100px;
+}
+
+.heading::before, .heading::after{
+content: "";
+height: 2px;
+background-color: #03090a;
+display: flex;
+}
+
+.emoji{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 50px;
+    animation: waving-hands 1.5s infinite;
+    transform-origin: 70% 70%;
+   
+}
+
+@keyframes waving-hands{
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(14deg);
+    } 
+    20%{
+        transform: rotate(-8deg);
+    }
+    30%{
+        transform: rotate(14deg);
+    }
+    40%{
+        transform: rotate(-4.0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+   100%{
+        transform: rotate(0deg);
+    }
+}
+.text{
+    text-align: justify;
+    font-family: Hoefler Text; 
+    font-size: 20px;
+    padding: 10px 600px 5px 2px;
+    float: left;
+    width: 50%;
+    position: relative;
+    bottom: 700px;
+}
+
+.rounded-button{
+width: 60px;
+height: 60px;
+background: rgb(37, 198, 235);
+color: rgb(246, 250, 250) ;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 0 0 0 0;
+border-radius: 50%;
+border: none;
+text-decoration: none;
+transition: background 0.2s;
+}
+.rounded-button:hover{
+    background: rgb(0, 28, 85);
+}
+#contact{
+    background: rgb(37, 198, 235);
+    color:rgb(242, 247, 249);
+    display: inline-block;
+    padding: 2% 5%;
+    font-size: 20px;
+    font-weight: 501;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    transition: background 0.2s;
+}
+#contact a{
+    text-decoration: none;
+    color:rgb(242, 247, 249);
+}
+#contact:hover{
+    background: rgb(0, 28, 85);
+}
+
+
+.new-pic{
+    max-width: 500px;
+    padding: 20px 50px 20px 10px;   
+}
+    
+    .name{
+        text-align: right;
+        font-family: Hoefler Text;
+        font-size: 37px;
+        padding: 10px 10px 100px 300px;
+        width: 100%;
+        align-items: right; 
+        position: relative;
+        bottom: 400px;   
+    }
+       
+.icon{
+    text-align: right;
+    font-size: 37px;
+    padding: 10px 10px 10px 300px;
+    width: 100%;
+    align-items: right;
+    position: relative;
+    bottom: 500px; 
+}
+.set{
+    width: 60px;
+    height: 60px;
+    background: rgb(37, 198, 235);
+    color: rgb(246, 250, 250) ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    cursor: pointer;
+    padding: 0 0 0 0;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.set:hover{
+    background: rgb(0, 28, 85);
+}
+
+.blue{
+color: rgb(122, 122, 145);
+font-size: 25px;
+font-family: Hoefler Text;
+list-style: none;
+padding: 0 0 0 440px;
+text-align: center;
+align-items: center;
+width: 100%;
+position: relative;
+bottom: 510px; 
+}
+.blue:not(:last-child){
+    margin-bottom: 10px;
+}
+.blue:before{
+    content:  "\1F535";
+}
+
+
+
+
+
+
+.wex{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        column-gap: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 70px;
+        padding: 0 0 0 100px;
+    }
+
+    .wex::before, .wex::after{
+    content: "";
+    height: 2px;
+    background-color: #03090a;
+    display: flex;
+    }
+.AIandIn{
+         text-align: right;
+        font-family: Hoefler Text;
+        font-size: 37px;
+        padding: 10px 10px 10px 80px;
+        width: 100%;
+        align-items: right; 
+        position: relative;
+        bottom: 400px; 
+}
+
+    #containerone{
+        margin: 0 20px 15px 20px;
+        text-align: left;
+        float: left;
+    }
+        .title{
+            text-align: justify;
+            font-family: Hoefler Text; 
+            font-size: 20px;
+            padding: 10px 20px 20px 700px;
+            align-items: right;
+            position: relative;
+            bottom: 500px;
+        }
+        .studies{
+            font-size: 50px;
+            position: none;
+            bottom: 300px;
+            text-align: center;
+        
+        }
+        img{
+            max-width: 500px;
+            padding: 10px 10px 10px 10px
+        }
+
+       
